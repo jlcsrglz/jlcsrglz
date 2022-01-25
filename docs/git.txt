@@ -9,4 +9,26 @@
 1.2 Inicializar un nuevo repositorio
     + git init
     > en el archivo .gitignore se configura qué archivos no se van a subir al repositorio
+2. Agregar al index (zona intermedia)
+    + git add .
+3. Agregar al Head
+    + git commit -m "migrations y models"
+4. Crear un nuevo repositorio
 
+5. Relacionar el repositorio remoto en el repositorio local
+    + git remote add origin https://github.com/jlcsrglz/jlcsrglz.git
+
+6. Subir el repositorio remoto
+    + git push -u origin master
+
+----------------------------------------------------------------
+Pasos para probar proyecto en laravel
+1. clonar o descargar el proyecto de laravel
+2. copia y pegar el archivo (.env.example) y renombrar a (.env)
+3. configurar archivo .env con credenciales de base de datos
+4. Instalar dependiencias de laravel
+    > composer update
+5. generar un key de la app
+    > php artisan key:generate
+6. migrar y crear las tablas de bases de datos
+    > php artisan migrate
