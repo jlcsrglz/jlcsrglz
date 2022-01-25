@@ -1,0 +1,12 @@
+1. Instalar GIT
+    + configurar
+    > git config --global user.name "Julio"
+    > git config --global user.email "jcglez@gmail.com"
+2. Crear una cuenta en (Github, Gatlab, Bitbucked)
+-----------------------------------------------------------------
+1.1 Clonar el repositorio
+    + git clone <direccion del repositorio>
+1.2 Inicializar un nuevo repositorio
+    + git init
+    > en el archivo .gitignore se configura qué archivos no se van a subir al repositorio
+
